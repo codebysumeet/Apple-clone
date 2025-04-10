@@ -2,7 +2,7 @@ body{
     background-color: rgb(242, 233, 233);
     header{
         text-align:center;
-        word-spacing: 30px;
+        word-spacing: 20px;
         font-style: 100px;
         font-size: small;
         }
@@ -12,12 +12,10 @@ body{
         font-family: system-ui;
         width: 500px;
         font-style: 200px;
+        border-width: 100px;
     }
     h4{
         text-align: center;
         background-color: white;
     }
-    buttom{
-        border-collapse: collapse;
-    }
-} 
+}
