@@ -1,3 +1,6 @@
+head{
+    border-radius: 50%;
+}
 body{
     background-color: rgb(242, 233, 233);
     header{
@@ -5,6 +8,7 @@ body{
         word-spacing: 20px;
         font-style: 100px;
         font-size: small;
+        backface-visibility: hidden;
         }
     h1{
         font-style: 30px;
