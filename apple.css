@@ -1,25 +1,30 @@
-head{
-    border-radius: 50%;
-}
 body{
     background-color: rgb(242, 233, 233);
     header{
-        text-align:center;
-        word-spacing: 20px;
+        padding-left: 100px;
+        word-spacing: 40px;
         font-style: 100px;
         font-size: small;
-        backface-visibility: hidden;
-        }
+    }
     h1{
         font-style: 30px;
         color:black;
         font-family: system-ui;
         width: 500px;
-        font-style: 200px;
-        border-width: 100px;
+        padding-left: 150px;
     }
     h4{
         text-align: center;
         background-color: white;
+        font-style:normal;
+        font-size: large;
+    }
+    img{
+        padding-left: 150px;
+        background-color: black;
+        background-size:cover;
+    }
+    p{
+        padding-left: 150px;
     }
 }
