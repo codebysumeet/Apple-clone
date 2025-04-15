@@ -8,6 +8,8 @@ body{
     }
     a{
         margin-left: 40px;
+        text-decoration: none;
+        color: black;
     }
     h1{
         font-style: 30px;
