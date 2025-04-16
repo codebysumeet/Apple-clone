@@ -1,10 +1,11 @@
 body{
-    background-color: rgb(242, 233, 233);
+    background-color: rgb(231, 229, 229);
     color: black;
     header{
         padding-left: 100px;
         font-style:normal;
         font-size: small;
+        padding-left: 250px;
     }
     a{
         margin-left: 40px;
@@ -24,7 +25,6 @@ body{
         height: 50px;
         font-size: 15px;
         font-style:normal;
-        padding-left: 10px;
     }
     img{
         padding-left: 150px;
