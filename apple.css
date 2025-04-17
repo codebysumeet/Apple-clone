@@ -1,16 +1,16 @@
 body{
-    background-color: rgb(231, 229, 229);
+    background-color: rgb(241, 236, 236);
     color: black;
     header{
-        padding-left: 100px;
+        padding-left: 250px;
         font-style:normal;
         font-size: small;
-        padding-left: 250px;
+        height: 20px;
     }
     a{
-        margin-left: 40px;
         text-decoration: none;
         color: black;
+        margin-left: 30px;
     }
     h1{
         font-style: 30px;
@@ -23,13 +23,14 @@ body{
         text-align: center;
         background-color: white;
         height: 50px;
-        font-size: 15px;
-        font-style:normal;
+        padding-top: 20px;
     }
     img{
-        padding-left: 150px;
+        display:inline-block;   
+        background-color: black;
     }
     p{
         padding-left: 150px;
+        display: inline;
     }
 }
