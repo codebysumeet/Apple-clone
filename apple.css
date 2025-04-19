@@ -1,6 +1,7 @@
 body{
     background-color: rgb(241, 236, 236);
     color: black;
+    border-width: 100px;
     header{
         padding-left: 250px;
         font-style:normal;
@@ -30,7 +31,6 @@ body{
         background-color: black;
     }
     p{
-        padding-left: 150px;
         display: inline;
     }
 }
