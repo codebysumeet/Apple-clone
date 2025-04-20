@@ -27,7 +27,7 @@ body{
         padding-top: 20px;
     }
     img{
-        display:inline-block;   
+        display:inline;   
         background-color: black;
     }
     p{
