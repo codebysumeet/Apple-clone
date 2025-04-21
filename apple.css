@@ -1,7 +1,6 @@
 body{
     background-color: rgb(241, 236, 236);
     color: black;
-    border-width: 100px;
     header{
         padding-left: 250px;
         font-style:normal;
@@ -24,7 +23,7 @@ body{
         text-align: center;
         background-color: white;
         height: 50px;
-        padding-top: 20px;
+        padding-top: 30px;
     }
     img{
         display:inline;   
@@ -32,5 +31,6 @@ body{
     }
     p{
         display: inline;
+        
     }
 }
