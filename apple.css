@@ -1,11 +1,15 @@
-body{
+*{
+    padding: 0;
+    margin: 0;
     background-color: rgb(241, 236, 236);
-    color: black;
-    header{
+}
+    
+    .navbar{
         padding-left: 250px;
         font-style:normal;
         font-size: small;
-        height: 20px;
+        height: 50px;
+
     }
     a{
         text-decoration: none;
@@ -26,11 +30,16 @@ body{
         padding-top: 30px;
     }
     img{
-        display:inline-table;   
-        background-color: black;
+        display:inline;  
+        background-color: aliceblue; 
     }
     p{
-        display: inline;
-        
+        display: inline;  
     }
-}
+    .midmain{
+        position: relative;
+        height: 800vh;
+    }
+    .midmain .main{
+        position:absolute;
+    }
