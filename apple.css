@@ -8,8 +8,6 @@
         padding-left: 250px;
         font-style:normal;
         font-size: small;
-        height: 50px;
-
     }
     a{
         text-decoration: none;
@@ -29,17 +27,30 @@
         height: 50px;
         padding-top: 30px;
     }
-    img{
-        display:inline;  
-        background-color: aliceblue; 
+    .options {
+        display:flex; 
+        gap:30px;
+        margin-top:40px;
+        justify-content:left;
+        padding-left: 5%;          
     }
-    p{
-        display: inline;  
+
+    .options1 {
+        position:relative;
+        text-align:start;
     }
-    .midmain{
-        position: relative;
-        height: 800vh;
+
+    .options1 img {
+        border-radius: 20px;
+        object-fit:fill;
     }
-    .midmain .main{
-        position:absolute;
+    .label {
+        position: absolute;
+        top: 50px;
+        left:10%; 
+        color:black;
+        font-size: 25px;
+        font-display:auto;
+        font-weight:500;
+        background-color: transparent;
     }
