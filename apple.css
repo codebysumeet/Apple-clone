@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: rgb(241, 236, 236);
+    background-color: rgb(black);
 }
     
     .navbar{
@@ -21,7 +21,7 @@
         width: 500px;
         padding-left: 150px;
     }
-    h4{
+    p{
         text-align: center;
         background-color: white;
         height: 50px;
@@ -53,4 +53,8 @@
         font-display:auto;
         font-weight:500;
         background-color: transparent;
+    }
+    .options img {
+        background-color:black;
+        object-fit:fill;
     }
