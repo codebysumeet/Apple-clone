@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: rgb(200, 150, 100)
+    background-color: rgb(200, 150, 100);
 }
     
     .navbar{
@@ -57,4 +57,11 @@
     .options img {
         background-color:black;
         object-fit:fill;
+    }
+    @media  only screen and (max-width:775px) {
+        .navbar{
+            padding: 05px;
+            font-style:normal;
+            font-size: small;
+        }
     }
