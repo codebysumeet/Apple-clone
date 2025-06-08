@@ -2,66 +2,67 @@
     padding: 0;
     margin: 0;
     background-color: rgb(200, 150, 100);
+
 }
     
+.navbar{
+    padding-left: 250px;
+    font-style:normal;
+    font-size: small;
+}
+ a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+h1{
+    font-style: 30px;
+    color:black;
+    font-family: system-ui;
+    width: 500px;
+    padding-left: 150px;
+}
+p{
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    padding-top: 30px;
+}
+.options {
+    display:flex; 
+    gap:30px;
+    margin-top:40px;
+    justify-content:left;
+    padding-left: 5%;          
+}
+
+.options1 {
+    position:relative;
+    text-align:start;
+}
+
+.options1 img {
+    border-radius: 20px;
+    object-fit:fill;
+}
+.label {
+    position: absolute;
+    top: 50px;
+    left:10%; 
+    color:black;
+    font-size: 25px;
+    font-display:auto;
+    font-weight:500;
+    background-color: transparent;
+}
+.options img {
+        background-color:black;
+        object-fit:fill;
+}
+@media  only screen and (max-width:775px) {
     .navbar{
-        padding-left: 250px;
+        padding: 05px;
         font-style:normal;
         font-size: small;
     }
-    a{
-        text-decoration: none;
-        color: black;
-        margin-left: 30px;
-    }
-    h1{
-        font-style: 30px;
-        color:black;
-        font-family: system-ui;
-        width: 500px;
-        padding-left: 150px;
-    }
-    p{
-        text-align: center;
-        background-color: white;
-        height: 50px;
-        padding-top: 30px;
-    }
-    .options {
-        display:flex; 
-        gap:30px;
-        margin-top:40px;
-        justify-content:left;
-        padding-left: 5%;          
-    }
-
-    .options1 {
-        position:relative;
-        text-align:start;
-    }
-
-    .options1 img {
-        border-radius: 20px;
-        object-fit:fill;
-    }
-    .label {
-        position: absolute;
-        top: 50px;
-        left:10%; 
-        color:black;
-        font-size: 25px;
-        font-display:auto;
-        font-weight:500;
-        background-color: transparent;
-    }
-    .options img {
-        background-color:black;
-        object-fit:fill;
-    }
-    @media  only screen and (max-width:775px) {
-        .navbar{
-            padding: 05px;
-            font-style:normal;
-            font-size: small;
-        }
-    }
+}
